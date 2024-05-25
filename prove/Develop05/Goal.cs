@@ -1,4 +1,4 @@
-public class BaseGoal
+public class Goal
 {
   protected internal string Name;
   protected internal string _description;
@@ -6,7 +6,7 @@ public class BaseGoal
   protected internal int _amountPoints;
 
   // Constructor
-  public BaseGoal(string name, string description, int amountPoints)
+  public Goal(string name, string description, int amountPoints)
   {
     Name = name;
     _description = description;
